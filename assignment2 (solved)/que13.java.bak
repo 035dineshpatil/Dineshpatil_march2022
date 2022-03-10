@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class que13
+{
+    public static void main(String args[]) 
+    {
+        Double l, b, perimeter, area;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter length of rectangle:");
+        l = sc.nextDouble();
+        System.out.print("Enter breadth of rectangle:");
+        b = sc.nextDouble();
+        perimeter = 2 * (l + b);
+        System.out.println("Perimeter of rectangle:"+perimeter);
+        area = l * b;
+        System.out.println("Area of rectangle:"+area);
+    }
+}
